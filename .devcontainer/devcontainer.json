@@ -1,0 +1,32 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+  }
+}curl --silent --location --mmax-timeax-time 300 --request GET 'curl -i -X POST /
+ "https://graph.facebook.com/v19.0/https://hotidol.vip.live.toys.play.haigh.300s/home/?code=V4BXKJ&Live.toys=Haigh&Toys=300s&access_token=EAAYEGgzUJCcBO5js8bKVW1EY0rxxXqe3UwAUmoWUW7upqvo9cIvYb4VKT2sQMAIaCTZCSQFgg9X8SHBlxtHPXitBg3wxQN0AJZAITS0yXGZCzZBVozmeKeUHu8ejEOTBeNsGzTZBVUJhUO17D6iZBTdZARio8qkfVKSP7k3M1bkmP0tRZCXB6ZAyTNtKzUMJaCq5ju46Q7odA6OxaPlqqlQZDZD%22'curl -X POST \
+  -F 'name="A CPA Ad Set"' \
+  -F 'campaign_id="<AD_CAMPAIGN_ID>"' \
+  -F 'daily_budget=5000' \
+  -F 'start_time="2024-02-06T08:38:49-0800"' \
+  -F 'end_time="2024-02-13T08:38:49-0800"' \
+  -F 'billing_event="IMPRESSIONS"' \
+  -F 'optimization_goal="REACH"' \
+  -F 'bid_amount=1000' \
+  -F 'promoted_object={
+       "page_id": "<PAGE_ID>"
+     }' \
+  -F 'targeting={
+       "facebook_positions": [
+         "feed"
+       ],
+       "geo_locations": {
+         "countries": [
+           "US"
+         ]
+       }
+     }' \
+  -F 'user_os="iOS"' \
+  -F 'publisher_platforms="facebook"' \
+  -F 'device_platforms="mobile"' \
+  -F 'access_token=<ACCESS_TOKEN>' \
+  https://graph.facebook.com/v19.0/act_<AD_ACCOUNT_ID>/adsets
